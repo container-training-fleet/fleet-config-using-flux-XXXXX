@@ -5,4 +5,5 @@ metadata:
   namespace: rocky-test
 spec:
   path: ./k8s/plain
+  targetNamespace: rocky-test
 
