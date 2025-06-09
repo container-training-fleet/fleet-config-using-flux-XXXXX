@@ -6,6 +6,6 @@ metadata:
   name: rocky-full-access
 rules:
 - apiGroups: ["", extensions, apps]
-  resources: [deployments, replicasets, pods, services, ingresses, statefulsets]
+  resources: [deployments, replicasets, pods, services, ingresses, statefulsets, persistentvolumes]
   verbs: [get, list, watch, create, update, patch, delete] # You can also use [*]
 
