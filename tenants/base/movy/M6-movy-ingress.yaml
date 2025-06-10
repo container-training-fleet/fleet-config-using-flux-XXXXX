@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: "nginx"
   rules:
-    - host: movy.test.mybestdomain.com
+    - host: movy.test.enixdomain.com
       http:
         paths:
           - path: /
