@@ -27,7 +27,7 @@ metadata:
   namespace: ingress-nginx
 spec:
   interval: 1m0s
-  path: ./ingress-nginx/deploy/static/provider/scw
+  path: ./deploy/static/provider/scw
   prune: false
   sourceRef:
     kind: GitRepository
