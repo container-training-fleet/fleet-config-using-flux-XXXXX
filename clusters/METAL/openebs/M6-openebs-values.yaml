@@ -10,4 +10,7 @@ engines:
 lvm-localpv:
   lvmNode:
     kubeletDir: /var/lib/k0s/kubelet/
+localprovisioner:
+  hostpathClass:
+    isDefaultClass: true
 
