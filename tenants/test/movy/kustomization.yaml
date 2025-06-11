@@ -6,4 +6,4 @@ patches:
   - path: M6-movy-test-patch.yaml
     target:
       kind: Kustomization
-
+  - path: M6-openebs-statefulset-patch.yaml
