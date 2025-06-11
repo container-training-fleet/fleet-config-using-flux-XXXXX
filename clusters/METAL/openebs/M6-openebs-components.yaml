@@ -8,14 +8,4 @@ metadata:
     pod-security.kubernetes.io/warn: restricted
     pod-security.kubernetes.io/warn-version: latest
   name: openebs
----
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: openebs-values
-  namespace: openebs
-data:
-  lvm-localpv:
-    lvmNode:
-      kubeletDir: /var/lib/k0s/kubelet/
 
