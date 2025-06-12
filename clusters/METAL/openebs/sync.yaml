@@ -23,6 +23,8 @@ spec:
         name: openebs
         namespace: openebs
   interval: 1m0s
-  valuesFrom:
-  - kind: ConfigMap
-    name: openebs-values
+  values:
+    localprovisioner:
+      hostpathClass:
+        isDefaultClass: true
+
