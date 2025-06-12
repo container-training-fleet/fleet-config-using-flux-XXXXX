@@ -5,6 +5,10 @@ metadata:
   name: tenant-test
   namespace: flux-system
 spec:
+spec:
+  # dependsOn:
+  # - name: kyverno-policies
+  #   namespace: kyverno
   interval: 1m0s
   path: ./tenants/test
   prune: true
