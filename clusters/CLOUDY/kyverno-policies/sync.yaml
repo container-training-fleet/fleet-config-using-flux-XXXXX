@@ -5,9 +5,6 @@ metadata:
   name: kyverno-policies
   namespace: kyverno
 spec:
-  dependsOn:
-  - name: kyverno
-    namespace: kyverno
   interval: 5m0s
   path: ./clusters/CLOUDY/kyverno-policies
   prune: true
