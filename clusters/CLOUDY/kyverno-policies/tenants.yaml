@@ -7,6 +7,7 @@ metadata:
 spec:
   dependsOn:
   - name: kyverno-policies
+    namespace: kyverno
   interval: 5m0s
   path: ./tenants/test
   prune: true
