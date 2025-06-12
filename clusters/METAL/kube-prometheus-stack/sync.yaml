@@ -30,7 +30,7 @@ metadata:
   namespace: monitoring
 spec:
   interval: 1m0s
-  path: ./monitoring/config
+  path: ./monitoring/configs
   prune: false
   sourceRef:
     kind: GitRepository
