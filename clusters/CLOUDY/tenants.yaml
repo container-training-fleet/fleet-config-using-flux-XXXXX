@@ -5,7 +5,6 @@ metadata:
   name: tenant-test
   namespace: flux-system
 spec:
-spec:
   # dependsOn:
   # - name: kyverno-policies
   #   namespace: kyverno
